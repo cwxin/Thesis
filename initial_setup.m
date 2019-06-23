@@ -1,4 +1,5 @@
 function [f, u_real, u_real_boundary, divide_matrix] = initial_setup(case_no,N,M,delta_M,delta_N,A,phi_bounded,a,b)
+
 switch case_no
     case 1
         %make initial f
